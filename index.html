@@ -14,13 +14,78 @@ Select ONE Additional Feature to Add
 -->
     
 <!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-    </head>
-    <body>
-
-        
-    </body>
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Discover Japan</title> 
+     
+    <style> 
+      body { 
+        font-family: Arial, sans-serif; 
+        background-image: url('https://img.freepik.com/premium-photo/beautiful-japan-landmark-background-with-mountain-fuji-pagoda_887552-31314.jpg'); 
+        background-size: cover; 
+        margin: 0; 
+        padding: 0; 
+      } h1, h2 { 
+        color: #333; 
+      } 
+      #welcome { 
+        text-align: center; 
+        padding: 20px; 
+      } 
+      .highlight { 
+        color: #b30000; 
+      } 
+      .image-gallery { 
+        display: flex; 
+        justify-content: space-around; 
+        padding: 20px; 
+      } 
+      .image-gallery img { 
+        width: 300px; 
+        height: 200px; 
+        border-radius: 10px; /* Feature 2: Border Radius */ 
+      } 
+      #details {
+        margin: 20px; 
+        padding: 20px; 
+        border: 2px solid #ccc; /* Feature 5: Border Property */ 
+        background-color: rgba(255, 255, 255, 0.8); 
+      } 
+    </style> 
+  </head> 
+  <body> 
+    <header id="welcome"> 
+      <h1>Welcome to Japan</h1> 
+      <p>Explore the rich culture, natural beauty, and modern wonders of Japan!</p> 
+    </header> 
+    <section id="details"> 
+      <h2 class="highlight">Top Attractions</h2> 
+      <ul> 
+        <li>Mount Fuji</li> 
+        <li>The bustling streets of Tokyo</li> 
+        <li>The serene temples of Kyoto</li> 
+      </ul> 
+      <h2 class="highlight">Things to Do</h2> 
+      <ul> 
+        <li>Cherry blossom viewing (Hanami)</li> 
+        <li>Relaxing in traditional hot springs (Onsen)</li> 
+        <li>Exploring historic castles and shrines</li> 
+      </ul> 
+    </section> 
+    
+    <section class="image-gallery"> 
+      <img src="https://cdn.britannica.com/03/75503-050-F65891FA/volcanic-cone-Japan-Mount-Fuji.jpg"> 
+      <img src="https://blog.danielaphotography.com.au/wp-content/uploads/2021/09/DSC9295-Edit-small.jpg" alt="Tokyo cityscape"> 
+      <img src="https://blog.sakura.co/wp-content/uploads/2023/10/kyoto-temples-thumbnail-kinkakuji.png" alt="Kyoto temple"> 
+    </section> 
+    
+    <!-- Feature 3: Horizontal Line --> 
+    <hr> 
+    <!-- Feature 4: Embedded YouTube Video --> 
+    <section id="video-tour"> 
+      <h2 class="highlight">Take a Virtual Tour</h2> 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/plDirbEb6Y8?si=MW-YKqmgZlTLtEY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section> 
+  </body> 
 </html>
